@@ -1,11 +1,11 @@
 # Declarations
 
-* Declare varibles like
+* declare varibles like
 ```
 int lower, upper, step;
 char c, line[1000];
 ```
-* Declare and initialize variables like
+* declare and initialize variables like
 ```
 char esc = '\\';
 int i = 0;
