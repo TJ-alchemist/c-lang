@@ -5,4 +5,3 @@
 * the expression ++n increments n before its value is used
 * the expression n++ increments n after its value has been used
 * these operators can only be applied to variables
-* 
