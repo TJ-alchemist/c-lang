@@ -14,5 +14,9 @@ int main(void) {
     j++;
   }
 
+  for (int k = 0; k < 3; k++) {
+    printf("meow\n");
+  }
+
   return 0;
 }
