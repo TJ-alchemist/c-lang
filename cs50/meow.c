@@ -20,7 +20,7 @@ int main(void) {
     printf("meow\n");
   }
 
-  meow(5);
+  meow(10);
 
   return 0;
 }
