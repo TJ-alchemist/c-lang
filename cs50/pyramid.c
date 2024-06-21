@@ -1,13 +1,15 @@
-// #include "cs50.h"
 #include "pyramid.h"
+#include "cs50.h"
 #include <stdio.h>
 
 int main(void) {
+  int size = get_int("Size of the pyramids: ");
+
   printf("Left aligned pyramid:\n");
-  make_left_aligned_pyramid(10);
+  make_left_aligned_pyramid(size);
   printf("\n");
   printf("Right aligned pyramid:\n");
-  make_right_aligned_pyramid(10);
+  make_right_aligned_pyramid(size);
 }
 
 void make_left_aligned_pyramid(int size) {
