@@ -29,11 +29,7 @@ void make_right_aligned_pyramid(int size) {
 
   for (i = 0; i < size; i++) {
     for (j = 0; j < size; j++) {
-      if (j >= size - i - 1) {
-        printf("#");
-      } else {
-        printf(" ");
-      }
+      (j >= size - i -1) ? printf("#") : printf(" ");
     }
     printf("\n");
   }
